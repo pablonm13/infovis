@@ -9,6 +9,7 @@
 
 <!-- create container element for visualization -->
 <div id="viz"></div>
+<div id="viz2"></div>
 
 
 
@@ -759,7 +760,7 @@
 {"Año":2017,"Carrera":"Lic.en Administración y Sistemas","Cantidad":27}]
   // instantiate d3plus
   var visualization = d3plus.viz()
-    .container("#viz")  // container DIV to hold the visualization
+    .container("#viz2")  // container DIV to hold the visualization
     .data(sample_data)  // data to use with the visualization
     .type("stacked")    // visualization type
     .id("Carrera")         // key for which our data is unique on
